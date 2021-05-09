@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 8px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.menu-icon {
+    visibility: hidden;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    float: right;
+    padding: 40px 0;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: rgba(49, 49, 49, 0.9);
+    position: fixed;
+    z-index: 10;
+    color: #fff;
+}
+
+.header-list {
+    float: left;
+    padding-top: 13px;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 176px;
+    height: 44px;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0, 5s;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 20px 0 20px;
+    display: block;
+    color: white;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav {
+    display: block;
+}
+
+.nav:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 10%;
+    padding-top: 50px;
+}
+
+.f-banner {
+    width: 940px;
+    height: 450px;
+}
+
+.top-wrapper {
+    margin-left: 55.6px;
+    margin-right: 55.6px;
+    padding: 100px 234px 0 234px;
+}
+
+.left-col {
+    position: absolute;
+    float: left;
+    width: 220px;
+    height: 500px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.category p:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.category h2 {
+    font-size: 25px;
+}
+
+.right-col {
+    float: right;
+    width: 81%;
+    color: #fff;
+}
+
+.right-col #trending {
+    float: right;
+    width: 81%;
+    color: #fff;
+}
+
+.txt-contents {
+    margin-top: 37px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.cont-wrapper {
+    padding: 10px;
+}
+
+.cont {
+    float: left;
+    padding-left: 30px;
+}
+
+.cont-game {
+    width: 217px;
+    height: 290px;
+}
+
+.cont-icon {
+    position: relative;
+}
+
+.cont-icon p {
+    position: absolute;
+    left: 15px;
+    color: white;
+}
+
+.heading {
+    width: 200px;
+}
+
+.heading1 {
+    width: 400px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.libary-card {
+    background-color: rgb(68, 67, 67);
+    width: 330px;
+    height: 520px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+.libary-game {
+    width: 60px;
+    height: 80px;
+}
+
+.libary-icon {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 30px;
+    display: flex;
+}
+
+.libary-icon p {
+    position: absolute;
+    font-size: 18px;
+    padding-left: 70px;
+    color: white;
+}
+
+.cc {
+    padding-left: 20px;
+}
+
+.libary-content p {
+    padding: 35px 10px 10px 10px;
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+}
+
+.nodisc {
+    text-decoration: line-through;
+    font-size: 15px;
+    color: #858385;
+}
+
+.keterangan {
+    padding-top: 20px;
+}
+
+.news-content {
+    padding-top: 100px;
+    color: white;
+}
+
+.per-news img {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+.per-news {
+    border-bottom: white solid 2px;
+    padding-bottom: 50px;
+}
+
+.library-wrapper {
+    padding-left: 10px;
+    float: left;
+    color: white;
+}
+
+.heading3 {
+    padding-top: 100px;
+}
+
+.left-library img {
+    width: 150px;
+    height: 230px;
+}
+
+.left-library {
+    float: right;
+    padding-right: 80px;
+}
+
+.right-library {
+    position: absolute;
+    float: right;
+    width: 10%;
+    height: 500px;
+    padding-left: 950px;
+    padding-top: 150px;
+    color: white;
+}
+
+.left-library p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+#footer-spacer {
+    height: 20px;
+    padding-top: 30px;
+    float: left;
+    width: 1688px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 125px;
+}
+
+.footer-logo p {
+    font-size: 12px;
+    color: #b3aeb5;
+}
+
+button {
+    text-align: center;
+    font-size: 10px;
+}
+
+.check-filter {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-filter input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.check-filter:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.check-filter input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check-filter input:checked~.checkmark:after {
+    display: block;
+}
+
+.check-filter .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+label {
+    color: white;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.box {
+    position: absolute;
+    top: 33px;
+    left: 75%;
+    transform: translate(-70%, -50%);
+    width: 30px;
+    height: 30px;
+    transition: .5s;
+}
+
+.box label {
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.box label:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+}
+
+.box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 9px;
+    padding-left: 30px;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+}
+
+.box input:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#check:checked+.box {
+    width: 400px;
+}
+
+#check:checked+.box>input {
+    opacity: 1;
+}
+
+#check:checked+.box>label {
+    box-shadow: none;
+}
+
+#check:checked+.box>label:hover {
+    transform: scale(0.5);
+}
