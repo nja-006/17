@@ -1,0 +1,121 @@
+/* Smartphone */
+
+@media (max-width:670px) {
+    .header-list {
+        visibility: hidden;
+    }
+    .header-right {
+        visibility: hidden;
+    }
+    header {
+        width: 100%;
+        height: 65px;
+        background-color: rgba(49, 49, 49, 0.9);
+        position: fixed;
+        z-index: 10;
+        color: #fff;
+    }
+    .top-wrapper {
+        margin-left: 10px;
+        margin-right: 10;
+        padding: 100px 100px 0 100px;
+    }
+    .box {
+        visibility: hidden;
+    }
+    .left-col {
+        visibility: hidden;
+    }
+    .footer-logo {
+        width: 700px;
+        padding-left: 100px;
+        text-align: center;
+    }
+    .right-col {
+        float: right;
+        width: 81%;
+        color: #fff;
+        padding-left: 150px;
+    }
+    .f-banner {
+        margin-left: 20px;
+        width: 500px;
+        height: auto;
+    }
+    .header-left {
+        float: left;
+    }
+    .menu-icon {
+        display: block;
+        padding-left: 500px;
+        font-size: 100px;
+        margin-top: 8px;
+        visibility: visible;
+    }
+}
+
+
+/* Tablet */
+
+@media (max-width:1000px) {
+    .header-list {
+        display: block;
+        margin-left: -300px;
+    }
+    .header-right {
+        display: block;
+        margin-right: 600px;
+    }
+    header {
+        width: 100%;
+        height: 65px;
+        background-color: rgba(49, 49, 49, 0.9);
+        position: fixed;
+        z-index: 10;
+        color: #fff;
+    }
+    .top-wrapper {
+        margin-left: 10px;
+        margin-right: 10;
+        padding: 100px 100px 0 100px;
+    }
+    .box {
+        display: none;
+    }
+    .left-col {
+        display: none;
+    }
+    .footer-logo {
+        width: 700px;
+        padding-left: 100px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .right-col {
+        float: right;
+        width: 81%;
+        color: #fff;
+        padding-left: 150px;
+    }
+    .f-banner {
+        margin-left: -40px;
+        width: 800px;
+        height: auto;
+    }
+    .header-left {
+        float: left;
+    }
+    .menu-icon {
+        display: block;
+        padding-left: 500px;
+        font-size: 200px;
+        padding-top: 20px;
+    }
+    .logo {
+        margin-left: -150px;
+    }
+    .cont-game {
+        width: 75%;
+        height: auto;
+    }
+}
